@@ -1,2 +1,2 @@
 # elinix-hotels-limited
-My first hotel website
+This is my first website
