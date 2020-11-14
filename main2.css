@@ -1,0 +1,240 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-primary {
+  color: peru;
+}
+.lead {
+  font-size: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 17px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: peru;
+  color: #333;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+  padding-left: 30px;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+.clr {
+  clear: both;
+}
+.l-heading {
+  font-size: 30px;
+  
+}
+.py-1 {padding : 10px 0px;}
+.py-2 {padding : 20px 0px;}
+.py-3 {padding : 30px 0px;}
+
+/*main styling*/
+body {
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+h1,h2,h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px 0;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+#Navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+#Navbar a {
+color: #fff;
+}
+#Navbar  li {
+  display: block;
+  padding-right: 20px;
+  float: left;
+}
+#Navbar h1 {
+  float: left; 
+  padding-top: 20px;
+  margin-left: -10px;
+}
+#Navbar ul  {
+  float: right;
+  padding-top: 20px;
+}
+#Navbar ul li a:hover,
+ #Navbar ul li a.current{
+  background: #444;
+  color: peru;
+  border: none;
+  outline: none;
+  cursor: pointer ;
+  padding: 12px 14px;
+  transition: 0.3s;
+}
+/*show case*/
+#showcase {
+background: url('img/frontpage.jpeg')
+ no-repeat center center/cover;
+ height: 430px;
+}
+#showcase .showcase-content{
+  color: #fff;
+  text-align: center;
+  padding-top: 150px;
+}
+#showcase .showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.1em;
+}
+#showcase .showcase-content p {
+padding-bottom: 20px;
+line-height: 1.5em;
+}
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat;
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 10%;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow: hidden;
+}
+#home-info .info-content h1 {
+  margin-right: 20px;
+}
+
+#home-info .info-content  p {
+  background: #333;
+  padding-bottom: 30px;
+}
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+#about-info .info-right {
+float: right;
+width: 50%;
+min-height: 100%;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  }
+ . btn btn-light {
+   text-align: center;
+ }
+ 
+#about-info .info-right img {
+display: block;
+margin: auto;
+width: 70%;
+border-radius: 50%;
+}
+#testimonials {
+  height: 1000px;
+  background: url('https://images.pexels.com/photos/53464/sheraton-palace-hotel-lobby-architecture-san-francisco-53464.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 50px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px #333;
+  opacity: 0.85;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 45%;
+}
+
+/*contact form*/
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+width: 100%;
+padding: 10px;
+border: 1px #ddd solid;
+border-radius: 5px;
+}
+
+#main-footer {
+  text-align: center;
+  background: #333;
+  color: #f4f4f4;
+ padding-bottom: 8px;
+ padding-top: 10px;
+ margin-right: 20px;
+}
+
+#main-footer i {
+  color: rgba(255, 0, 0, 0.671);
+}
